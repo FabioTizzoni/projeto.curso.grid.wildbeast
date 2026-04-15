@@ -1,0 +1,18 @@
+.anuncios {
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  justify-self: center;
+  padding: 30px;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+}
+
+.anuncios div img {
+  transition: 0.1s ease-out;
+  box-shadow: 0px 0px 12px 5px rgba(176, 125, 251, 0.25);
+}
+
+.anuncios div img:hover {
+  box-shadow: 0px 0px 15px 10px rgba(176, 125, 251, 0.6);
+}

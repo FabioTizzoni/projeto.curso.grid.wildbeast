@@ -1,0 +1,136 @@
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.titulo {
+  color: #b07dfb;
+  justify-self: center;
+}
+
+.titulo h1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+  justify-self: center;
+}
+
+.titulo span {
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.caracteristicas {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-self: center;
+  align-self: center;
+}
+
+.caracteristicas>div {
+  width: 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px 5px rgba(176, 125, 251, 0.5);
+  position: relative;
+}
+
+.caracteristicas span {
+  display: block;
+}
+
+.numero {
+  color: white;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+.rotulo {
+  color: #b07dfb;
+  background: white;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}
+
+.destaque {
+  font-size: 0.875rem;
+  color: #b07dfb;
+  max-width: 16rem;
+  justify-self: center;
+}
+
+.citacao,
+.atributos {
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  box-shadow: 2px 2px 15px 5px rgba(44, 44, 44, 0.25);
+}
+
+.citacao p {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  justify-self: center;
+}
+
+.atributos li {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.125rem;
+  padding: 15px;
+}
+
+.atributos li+li {
+  border-top: 2px solid #b07dfb;
+}
+
+.col-inteira {
+  grid-column: 1 / -1;
+}
+
+.img-1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+.img-2 {
+  align-self: end;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+  justify-self: center;
+  box-shadow: 2px 2px 15px 5px rgba(44, 44, 44, 0.15);
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: -0.005rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.informacoes p+p {
+  margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}

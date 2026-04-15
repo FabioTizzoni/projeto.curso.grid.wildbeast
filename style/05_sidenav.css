@@ -1,0 +1,59 @@
+.sidenav {
+  background: #fafbfc;
+  padding: 30px;
+}
+
+.sidenav a {
+  display: block;
+  min-height: 60px;
+  max-width: 100px;
+  margin: 0 auto 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 5px rgba(176, 125, 251, 0.25);
+  transition: 0.1s ease-out;
+}
+
+.sidenav a:hover {
+  box-shadow: 0px 0px 10px 10px rgba(176, 125, 251, 1);
+  /* background: #b07dfb; */
+}
+
+@keyframes seta {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 150px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidenav {
+    padding: 0 30px;
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  .sidenav::after {
+    content: "→";
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: #b07dfb;
+    animation: seta 0.8s ease-in 0s infinite alternate;
+  }
+  .sidenav ul {
+    display: flex;
+    gap: 20px;
+  }
+  .sidenav li {
+    flex: 1 0 60px;
+  }
+  .sidenav a {
+    min-width: 60px;
+    margin: 30px 0 30px 0;
+  }
+}

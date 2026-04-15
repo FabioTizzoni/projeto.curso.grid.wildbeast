@@ -1,0 +1,27 @@
+body,
+p,
+h1,
+ul,
+blockquote {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: aqua; */
+}
+
+body {
+  font-family: "volkorn", Georgia, serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

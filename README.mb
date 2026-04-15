@@ -1,0 +1,37 @@
+🦁 Grid-Wildbeast - Website Responsivo
+Este projeto é um site fictício desenvolvido para demonstrar e praticar o domínio total do CSS Grid Layout. O objetivo principal foi criar uma interface moderna, organizada e totalmente responsiva para a exibição de um catálogo de animais, utilizando apenas propriedades de malha (grid), sem a necessidade de frameworks externos.
+
+🚀 Tecnologias Utilizadas
+
+HTML5: Estrutura semântica focada na organização de dados e acessibilidade.
+
+CSS3 (Pure): Estilização customizada com foco absoluto em Grid Layout.
+
+Design Responsivo: Adaptação fluida para diferentes tamanhos de tela (Mobile, Tablet e Desktop) através de Media Queries e funções dinâmicas do Grid.
+
+💡 O que foi explorado:
+
+Grid Areas: Definição de áreas nomeadas (grid-template-areas) para uma organização visual clara entre fotos, descrições e especificações técnicas.
+
+Dimensionamento Dinâmico: Uso de fr, repeat(), minmax() e auto-fill/auto-fit para criar colunas que se ajustam automaticamente ao conteúdo.
+
+Alinhamento de Conteúdo: Manipulação precisa de dados numéricos (peso e tamanho) e imagens através de align-content e justify-items.
+
+Grid Gap: Controle rigoroso do espaçamento entre os cards de animais, mantendo a consistência visual em qualquer resolução.
+
+Responsividade Nativa: Reestruturação da malha para dispositivos móveis, transformando layouts complexos em colunas únicas de leitura fácil.
+
+📊 Estrutura de Conteúdo
+Cada animal listado no site apresenta um card estruturado com:
+
+Foto: Imagem otimizada do animal.
+
+Descrição: Breve texto sobre o habitat e comportamento.
+
+Dados Técnicos: Tabela ou grid auxiliar contendo Peso e Tamanho.
+
+🛠️ Como rodar o projeto localmente
+Para visualizar o projeto e compilar o CSS em tempo real, siga os passos abaixo:
+
+Clone o repositório:
+git clone https://github.com/FabioTizzoni/projeto.curso.grid.wildbeast
